@@ -22,3 +22,11 @@ p {
     padding: 30px;
     margin: 50px;
 }
+
+ul li {
+    font-size: large;
+}
+
+ol li {
+    font-size: large;
+}
