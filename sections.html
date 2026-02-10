@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!-- This is the page title -->
+         <title>Sectioning Elements</title>
+        
+        <!-- Linking CSS file? -->
+         <link rel="stylesheet" href="sectionsStyles.css">
+
+    </head>
+
+    <body>
+        <!-- Banner landmark role <header>-->
+            <header>
+                <h1>Cities (Header)</h1>
+            </header>
+
+            <main>
+
+                <!-- Navigation landmark role <nav> pointing to different cities-->
+                    <nav>
+                        <h2>Navigation</h2>
+                        <ul>
+                            <li><a href="#">New York City</a></li>
+                            <li><a href="#">London</a></li>
+                            <li><a href="#">Paris</a></li>
+                        </ul>
+                    </nav>
+
+                <!-- Main content + sidebar-->
+                 <section class="content-wrapper">
+                <!-- Article document structure role <article>-->
+                    <article>
+                        <h2>(Articles)</h2>
+
+                        <h2>New York City <img src="https://res.cloudinary.com/shipit-cdn/images/c_scale,w_448,h_299,dpr_2/f_auto,q_auto/v1733410609/wordpress/new-york/new-york.jpg?_i=AA" alt="NYC skyline" width="200" height="100"></h2>
+
+                        <p>New York City (NYC) is the most populous city in the U.S., 
+                            comprising five distinct boroughs—Manhattan, Brooklyn, Queens, The Bronx, 
+                            and Staten Island.</p>
+
+                        <p>As a premier global hub for finance, culture, media, and fashion, 
+                            it is famously known as "the city that never sleeps". Iconic landmarks like 
+                            the Empire State Building, Times Square, and Central Park define its skyline.</p>
+
+
+                        <h2>London <img src="https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_3840,h_1920,g_auto/dpr_auto/f_auto/q_auto:eco/v1/topic-london-gettyimages-760251843-feature?_a=BAVAZGID0" alt="London skyline" width="200" height="100"></h2>
+
+                        <p>London is the capital and largest city of both England and the United Kingdom, 
+                            renowned as a global hub for finance, culture, and history.</p>
+
+                        <p>Situated on the River Thames, it is a diverse,, bustling metropolis of ~9 million 
+                            people known for iconic landmarks like the Tower of London, museums, 
+                            and vibrant theater scenes.</p>
+
+                        
+                        <h2>Paris <img src="https://worldcitiescultureforum.com/wp-content/uploads/2023/09/Paris1.jpg" alt="Paris skyline" width="200" height="100"></h2>
+
+                        <p>Paris, the capital of France and nicknamed the "City of Light," is a global hub for art, 
+                            fashion, gastronomy, and culture located along the Seine River.</p>
+                        
+                        <p>Famous for iconic landmarks like the Eiffel Tower and Louvre Museum, it offers a 
+                            historic atmosphere with 20 distinct arrondissements, 
+                            drawing millions of tourists annually.</p>
+
+                    </article>
+
+                    <!-- Complementary landmark role <aside>-->
+                        <aside>
+                            <h2>(Aside section)</h2>
+
+                            <h2>Population of each city</h2>
+
+                            <ol>
+                                <li>New York City - 8.4 million</li>
+                                <li>London - 9 million</li>
+                                <li>Paris - 13.2 million</li>
+                            </ol>
+                        </aside>
+                </section>
+
+                    <!-- Contentinfo landmark role <footer>-->
+                        <footer>
+                            <p>Footer</p>
+                        </footer>
+
+            </main>
+
+
+    </body>
+</html>
